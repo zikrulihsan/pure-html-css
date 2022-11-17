@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>POP IT STORE</title>
+</head>
+<body>
+    <header id="header" class="container container--orange">
+            <div class="header__logo">
+                <p>KODLAND POP</p>
+                <div>
+                    <input id="darkMode" type="checkbox" class="header__logo__darkmode-label-checkbox" onclick="darkModeToggle()">
+                    <label class="header__logo__darkmode-label">Dark Mode</label>
+                </div>
+            </div>
+            <nav id="menu" class="header__menu">
+                <ul class="header__menu__list">
+                    <li class="header__menu__list__item">
+                        <a class="header__menu__list__item__link" href="#description">POP IT</a>
+                    </li>
+                    <li class="header__menu__list__item">
+                        <a class="header__menu__list__item__link" href="#products">VARIAN</a>
+                    </li>
+                    <li class="header__menu__list__item">
+                        <a class="header__menu__list__item__link" href="#about">ABOUT</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main id="overview" class="container container--orange">
+        <div class="main__left">
+            <h1 class="main__left__title">POP IT!</h1>
+            <p class="main__left__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <button class="button button--primary main__left__button">POP NOW</button>
+        </div>
+        <div class="main__right">
+            <img src="/images/background.png"/>
+        </div>
+    </main>
+    <section id="description" class="container section--column">
+        <h1 class="section__title section__title--center">POP IT KEKINIAN?</h1>
+        <p class="section__content section__content--center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </section>
+    <section id="products" class="container container--blue section--column">
+        <h1 class="section__title section__title--center">APA SAJA PILIHANNYA?</h1>
+        <div class="unbordered-cards">
+            <div class="unbordered-card">
+                <img class="unbordered-card__img" src="images/square.png"/>
+                <p class="unbordered-card__label">Pop It Kotak kesukaan anak anak</p>
+                <button class="button button--secondary unbordered-card__button">KLIK</button>
+            </div>
+            <div class="unbordered-card">
+                <img class="unbordered-card__img" src="images/amongus.png"/>
+                <p class="unbordered-card__label">Pop It Kotak kesukaan anak laki laki</p>
+                <button class="button button--secondary unbordered-card__button">KLIK</button>
+            </div>
+            <div class="unbordered-card">
+                <img class="unbordered-card__img" src="images/round.png"/>
+                <p class="unbordered-card__label">Pop It Kotak kesukaan anak wanita</p>
+                <button class="button button--secondary unbordered-card__button">KLIK</button>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="container container--orange-shape-bg">
+        <div class="section__left">
+            <h1 class="section__title section__left__title">TENTANG POP IT</h1>
+            <p class="section__left__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.        </p>
+        </div>
+        <div class="section__right">
+            <img class="section__right__img" src="/images/photo.jpg"/>
+        </div>
+    </section>
+    <footer>
+        <nav class="footer__menu">
+            <ul class="footer__menu__list">
+                <li class="footer__menu__list__item">POP IT</li>
+                <li class="footer__menu__list__item">VARIAN</li>
+                <li class="footer__menu__list__item">BELI</li>
+                <li class="footer__menu__list__item">VARIAN</li>
+                <li class="footer__menu__list__item">BELI</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
